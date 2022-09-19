@@ -36,3 +36,25 @@
     right: calc(20px + 0.6em);
     font-weight: bolder;
 }
+
+@media (max-width:475px){
+    .cards{
+        height: 300px;
+    }
+}
+@media (max-width:300px){
+    .cards{
+        height: 350px;
+    }
+    .cards button{
+        bottom: 20px;
+        right: 5px;
+        font-size: 0.8em;
+    }
+    .cards p{
+        text-align: left;
+    }
+    .cards p + p{
+        font-size: 0.8em;
+    }
+}
