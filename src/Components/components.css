@@ -1,0 +1,38 @@
+.cards{
+    background-color: #f0f0ff;
+    width: 500px;
+    height: 220px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 500;
+    box-shadow: 5px 15px 5px rgba(39, 38, 38, 0.568);
+}
+.cards::before{
+    content: "❝";
+    font-size: 5rem;
+    position: absolute;
+    left: 0;
+    top: 25px;  
+}
+.cards p:first-child{
+    margin-top: 30px;
+}
+.cards p {
+    transition: color .8s ease-in-out;
+    text-align: justify;
+    margin: 20px;
+}
+.cards p + p{
+    position: absolute;
+    bottom: 5px ;
+    width: 100%;
+}
+.cards button{
+    position: absolute;
+    bottom: 15px;
+    right: calc(20px + 0.6em);
+    font-weight: bolder;
+}
