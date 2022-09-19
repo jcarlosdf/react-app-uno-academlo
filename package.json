@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://jcarlosdf.github.io/react-app-uno-academlo" ,
+  "homepage":"https://jcarlosdf.github.io/react-app-uno-academlo/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
